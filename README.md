@@ -3,10 +3,13 @@
 To avoid losing out on any variables already stored in your ~/.bashrc file, you can add an additional line to ~/.zshrc file.
 
 `source ~/.bashrc`
-This will load anything specific to your bashrc file already present.
 
+This will load anything specific to your bashrc file already present. 
+**Check if there is really a need to add this line. It can most probably just be skipped.**
 
 Common Problems
+
+0. You might have to modify the bash file a bit (especially the `install` command) in case you change your OS - like AmazonLinux for example.
 1. If you have shifted from bash to zsh, then VSCode "+" button will still select the "bash" as the default shell.
 2. You can change this by pressing "+", then pressing "Select Default Profile" and then choosing "zsh".
 
