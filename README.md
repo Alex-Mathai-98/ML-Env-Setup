@@ -7,6 +7,10 @@ To avoid losing out on any variables already stored in your ~/.bashrc file, you 
 This will load anything specific to your bashrc file already present. 
 **Check if there is really a need to add this line. It can most probably just be skipped.**
 
+Very likely, you might have to copy the `conda initialize` commands in the `~/.bashrc` file into the `~/.zshrc` file. So that the `conda activate` command works fine.
+
+---
+
 Common Problems
 
 0. You might have to modify the bash file a bit (especially the `install` command) in case you change your OS - like AmazonLinux for example.
