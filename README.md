@@ -1,13 +1,15 @@
 # ML-Env-Setup
 
-To avoid losing out on any variables already stored in your ~/.bashrc file, you can add an additional line to ~/.zshrc file.
+1. To avoid losing out on any variables already stored in your ~/.bashrc file, you can add an additional line to ~/.zshrc file.
 
 `source ~/.bashrc`
 
 This will load anything specific to your bashrc file already present. 
 **Check if there is really a need to add this line. It can most probably just be skipped.**
 
-Very likely, you might have to copy the `conda initialize` commands in the `~/.bashrc` file into the `~/.zshrc` file. So that the `conda activate` command works fine.
+2. Very likely, you might have to copy the `conda initialize` commands in the `~/.bashrc` file into the `~/.zshrc` file. So that the `conda activate` command works fine.
+
+3. I have modified the `.tmux.conf` file to automatically load `zsh`, the command assumes the path `/usr/bin/zsh`; but on other computers it can also be `/usr/zsh`.
 
 ---
 
