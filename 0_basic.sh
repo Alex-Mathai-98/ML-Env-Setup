@@ -28,7 +28,8 @@ syntax on' \
 	> ~/.vimrc
 
 echo -e "set -g mouse on
-set -g history-limit 50000" \
+set -g history-limit 50000
+set-option -g default-shell /usr/bin/zsh" \
 	> ~/.tmux.conf
 
 sudo chsh -s $(which zsh) $(whoami)
