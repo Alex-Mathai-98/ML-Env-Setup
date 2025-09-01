@@ -29,7 +29,7 @@ brew update
 brew install vim curl wget git tmux zsh htop tree neofetch zip unzip git-lfs
 
 # CHANGED: Install macOS-specific alternatives for Linux tools
-brew install nload iftop iotop btop
+brew install nload iftop btop
 # CHANGED: net-tools equivalent on macOS (built-in networking tools are sufficient)
 # Note: macOS has built-in equivalents like netstat, ifconfig
 
